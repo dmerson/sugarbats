@@ -1,0 +1,4 @@
+%%%DateTime	ms since program start
+2016-08-17T23:16:40.692-07:00	618
+2000	-1
+2259	-4

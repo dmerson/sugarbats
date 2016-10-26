@@ -1,0 +1,6 @@
+licks2 <- read.csv(file="20160815-16LongTime.csv", sep="\t")
+options(digits.secs=3)
+tms <- as.POSIXct(licks2[[1]], format="%Y-%m-%dT%H:%M:%OS")
+format(tms)
+brks <- trunc(range(tms), "hours")
+hist(tms, main="Bat Licks\n2016/08/15-16", breaks=seq(brks[1], brks[2]+3600, by="5 min"))

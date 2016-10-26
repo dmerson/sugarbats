@@ -1,0 +1,4 @@
+%%%DateTime	ms since program start
+20160813170639Z-72016-08-13T17:06:39.456-07:00[America/Phoenix]	453
+16034	3
+16257	-3
