@@ -13,8 +13,8 @@ import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoField;
   
 BufferedReader batInputFile;
-String baseFileName = "20161014190654-07copy.txt";
-String inFileName = "../ReadBatBatchTelnetClient/" + baseFileName;
+String baseFileName = "20160814011557Z-7 copy.txt";
+String inFileName = baseFileName; // don't have this "../ReadBatBatchTelnetClient/" + baseFileName;
 
 SinOsc sine;
 
@@ -45,7 +45,7 @@ Boolean audiofeedback = true;
 Boolean pausePlayback = true;
 
 void setup() {
-   String DateTimeStamp;
+   String DateTimeStamp; //<>//
   size(500, 500); 
   background(0); 
   sine = new SinOsc(this);
