@@ -27,3 +27,11 @@ So in the following example:
 43274	-1
 Something licked the first sensor 42 minutes and 876 milliseconds after 8:25:36
 Or about 9:07 (you can do the exact math)
+
+# Other programs
+To playback the pde file, you will need to install the processing IDE at:
+
+https://processing.org/download/?processing 
+
+
+If you try to run the pde file in the root directory, it give you a message that it will move it to the batplackback folder. I just used the one in the bat playback folder and pointed to a file that existed in the directory and it seems to work. I will Dr. Heidorn decide if that is correct or not.
